@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <div class="mobile_menu">
+        mobile menu
+        <button id="mobile-menu-close-btn">close</button>
+    </div>
+
     <div class="bg">
         <div class="container">
             <div class="header">
@@ -37,9 +42,9 @@
         </div>
     </div>
 
-    <div class="about">
+    <div class="about content_item">
         <div class="container">
-            <div class="about_top">About</div>
+            <div class="title">About</div>
                 <div class="about_item">
                     Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt.
                     Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
@@ -56,5 +61,95 @@
                 </div>
         </div>
     </div>
+
+    <div class="skills content_item">
+        <div class="container">
+            <div class="title">Skills</div>
+            <div class="skills_content">
+                <div class="skills_picture">
+                    <img src="./img/Profile%20Picture.png" alt="profile picture">
+                </div>
+                <div class="skills_list">
+                    <div class="skills_item">
+                        <div class="skills_item_caption">Profile</div>
+                        <div class="skills_item_body">UI / UX Engineer, Front-end Developer</div>
+                    </div>
+                    <div class="skills_item">
+                        <div class="skills_item_caption">UX Research</div>
+                        <div class="skills_item_body">
+                            <div class="progress_bar">
+                                <div class="progress_bar_line" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills_item">
+                        <div class="skills_item_caption">Tools</div>
+                        <div class="skills_item_body">Paper, Pen, Balsamiq</div>
+                    </div>
+                    <div class="skills_item">
+                        <div class="skills_item_caption">UI Design</div>
+                        <div class="skills_item_body">
+                            <div class="progress_bar">
+                                <div class="progress_bar_line" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skills_item">
+                        <div class="skills_item_caption">Tools</div>
+                        <div class="skills_item_body">Adobe PS, AI, XD, Figma, InVision</div>
+                    </div>
+                    <div class="skills_item">
+                        <div class="skills_item_caption">Front-end Dev</div>
+                        <div class="skills_item_body">
+                            <div class="progress_bar">
+                                <div class="progress_bar_line" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skills_item">
+                        <div class="skills_item_caption">Tools</div>
+                        <div class="skills_item_body">HTML, CSS, JS, Bootstrap, React</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio content_item">
+        <div class="container">
+            <div class="title">Portfolio</div>
+            <div class="slide">
+                <div class="slide_caption">UX Research</div>
+                <div class="slide_content">
+                    <div class="slide_body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ac dictum nibh nam odio cursus id.
+                        Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                    </div>
+                    <div class="slide_pictures">
+                        <div class="slide_column">
+                            <img src="./img/bridge2.png" alt="slide">
+                            <img src="./img/river.png" alt="slide">
+                        </div>
+                        <div class="slider_column">
+                            <img src="./img/bridge.png" alt="slide">
+                            <img src="./img/house.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>

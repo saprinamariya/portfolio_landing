@@ -387,6 +387,12 @@ img:first-child {
     margin-bottom: 30px;
 }
 
+@media (max-width: 1040px) {
+    img {
+        width: 100%;
+    }
+}
+
 @media (max-width: 1040px) and (min-width: 580px) {
     .slide_caption {
         text-align: center;
@@ -456,7 +462,8 @@ img:first-child {
     color: #333333;
 }
 
-@media (max-width: 1040px) and (min-width: 580px) {
+
+@media (max-width: 1040px) and (min-width: 768px) {
     .footer_list_static {
         margin-right: 180px;
     }
@@ -464,10 +471,9 @@ img:first-child {
     .footer_list_item {
         margin-right: 180px;
     }
-
 }
 
-@media (min-width: 580px) and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 580px) {
     .footer_list_static {
         margin-right: 90px;
     }
@@ -475,7 +481,6 @@ img:first-child {
     .footer_list_item {
         margin-right: 90px;
     }
-
 }
 
 @media (max-width: 580px) {

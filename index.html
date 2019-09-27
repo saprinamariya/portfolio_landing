@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./index.css">
 </head>
@@ -123,22 +124,52 @@
     <div class="portfolio content_item">
         <div class="container">
             <div class="title">Portfolio</div>
-            <div class="slide">
-                <div class="slide_caption">UX Research</div>
-                <div class="slide_content">
-                    <div class="slide_body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ac dictum nibh nam odio cursus id.
-                        Diam massa semper a tincidunt cursus ultricies lectus eget urna.
-                    </div>
-                    <div class="slide_pictures">
-                        <div class="slide_column">
-                            <img src="./img/bridge2.png" alt="slide">
-                            <img src="./img/river.png" alt="slide">
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide_caption">UX Research</div>
+                            <div class="slide_content">
+                                <div class="slide_body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ac dictum nibh nam odio cursus id.
+                                    Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                                </div>
+                                <div class="slide_pictures">
+                                    <div class="slide_column">
+                                        <img src="./img/bridge2.png" alt="slide">
+                                        <img src="./img/river.png" alt="slide">
+                                    </div>
+                                    <div class="slider_column">
+                                        <img src="./img/bridge.png" alt="slide">
+                                        <img src="./img/house.png" alt="slide">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="slider_column">
-                            <img src="./img/bridge.png" alt="slide">
-                            <img src="./img/house.png" alt="slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide_caption">UX Research</div>
+                            <div class="slide_content">
+                                <div class="slide_body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ac dictum nibh nam odio cursus id.
+                                    Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                                </div>
+                                <div class="slide_pictures">
+                                    <div class="slide_column">
+                                        <img src="./img/bridge2.png" alt="slide">
+                                        <img src="./img/river.png" alt="slide">
+                                    </div>
+                                    <div class="slider_column">
+                                        <img src="./img/bridge.png" alt="slide">
+                                        <img src="./img/house.png" alt="slide">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -146,10 +177,36 @@
         </div>
     </div>
 
-    <div class="footer">
-
+    <div class="footer content_item">
+        <div class="container">
+            <div class="title">Get in Touch</div>
+            <div class="footer_list">
+                <div class="footer_list_static">
+                    <div class="footer_list_item">
+                        <a href="#">Dribbble</a>
+                        <a href="#">Behance</a>
+                        <a href="#">CodePen</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Medium</a>
+                    </div>
+                    <div class="footer_list_item">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer_list_traffic">
+                    <div class="footer_list_item">
+                        <a href="#">seyrig@mail.com</a>
+                        <a href="#">+ 55 6645 665544</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

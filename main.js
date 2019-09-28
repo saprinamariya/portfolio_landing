@@ -1,13 +1,6 @@
-const mobileMenu = document.querySelector('.mobile_menu');
-
-document.querySelector('.burger_menu').addEventListener('click', () => {
-    mobileMenu.style.display = 'block';
+document.querySelector('.arrow_top_btn').addEventListener('click', function(event) {
+    window.scrollTo(0 , 0);
 });
-
-document.querySelector('#mobile-menu-close-btn').addEventListener('click', () => {
-    mobileMenu.style.display = 'none';
-});
-
 
 var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
@@ -21,7 +14,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.slider_arrow_right',
+        prevEl: '.slider_arrow_left',
     }
 });
